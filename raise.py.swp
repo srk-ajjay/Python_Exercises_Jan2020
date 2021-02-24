@@ -1,0 +1,8 @@
+def colorize(text, color):
+	colors = ("yello", "blue", "cyan", "green", "magenta")
+	if type(text) is not str:
+		raise TypeError("Text much be in string")
+	print(f"printed {text} in {color}")
+
+colorize("Hello", 'red')
+colorize(34, "red")
